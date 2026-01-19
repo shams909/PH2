@@ -1,0 +1,53 @@
+.header nav ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(10px);
+    color: white;
+    gap: 20px;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 50px;
+}
+
+
+.header nav ul li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+
+}
+
+.nav-links {
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+
+
+.logo {
+    font-weight: bold;
+    font-size: 37px;
+    margin-left: 20px;
+}
+
+
+
+
+.subscribe {
+    color: rgb(0, 0, 0);
+    padding: 10px 20px;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+    margin-right: 20px;
+
+}
+
+.subscribe:hover {
+    color: white;
+    transform: scale(1.1);
+    transition: all 0.3s ease;
+}

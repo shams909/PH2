@@ -1,3 +1,5 @@
+@import "tailwindcss";
+
 .header nav ul {
     display: flex;
     list-style: none;
@@ -110,7 +112,7 @@
 
 .btn-spotify {
     background: linear-gradient(to right, #ff006e, #ff8800);
-    color: white;
+    color: rgb(0, 0, 0);
     padding: 12px 25px;
     border-radius: 30px;
     margin-top: 20px;
@@ -165,4 +167,38 @@
     border-top: 1px solid whitesmoke;
     width: 100%;
     margin: 20px auto;
+}
+
+.stats-section {
+
+    color: white;
+}
+
+.stats-container {
+
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+
+}
+
+
+.stat-number {
+    font-size: 48px;
+    font-weight: bold;
+    color: #dd6300;
+    margin-bottom: 10px;
+}
+
+.stat-label {
+    font-size: 12px;
+}
+
+.columns {
+    text-align: center;
+    margin-top: 80px;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 20px;
 }

@@ -95,7 +95,7 @@
 
 .hero-content {
     position: absolute;
-    top: 85%;
+    top: 80%;
     left: 50%;
     transform: translateX(-50%);
     text-align: center;
@@ -116,14 +116,53 @@
     margin-top: 20px;
     cursor: pointer;
     font-weight: 600;
+    font-size: 12px;
 }
 
 .btn-subscribe {
-    background: linear-gradient(to right, #ff006e, #ff8800);
-    color: white;
+    background: transparent;
+    color: rgb(10, 37, 3);
     padding: 12px 25px;
     border-radius: 30px;
     margin-top: 20px;
     cursor: pointer;
     font-weight: 600;
+    font-size: 12px;
+    border: 1px solid rgb(0, 128, 96);
+}
+
+.btn-spotify img,
+.btn-subscribe img {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+
+.about-section {
+    background-color: transparent;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.about-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.about-title {
+    font-size: 40px;
+    font-weight: bold;
+    color: white;
+}
+
+.about-text {
+    font-size: 10px;
+    color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 20px;
+}
+
+.about-section hr {
+    border-top: 1px solid whitesmoke;
+    width: 100%;
+    margin: 20px auto;
 }

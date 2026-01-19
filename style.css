@@ -5,7 +5,7 @@
     list-style: none;
     align-items: center;
     justify-content: space-between;
-    background-color: rgba(136, 50, 0, 0.5);
+    background-color: rgba(230, 87, 4, 0.5);
     backdrop-filter: blur(10px);
     gap: 20px;
     padding: 10px;
@@ -92,7 +92,7 @@
     border-radius: 20px;
     font-weight: bold;
     font-size: 12px;
-    z-index: 10;
+
 }
 
 .hero-content {
@@ -121,6 +121,22 @@
     font-size: 12px;
 }
 
+.btn-spotify {
+    animation: glow 2s ease-in-out infinite;
+}
+
+@keyframes glow {
+
+    0%,
+    100% {
+        box-shadow: 0 0 5px rgba(251, 146, 60, 0.5);
+    }
+
+    50% {
+        box-shadow: 0 0 20px rgba(251, 146, 60, 0.8), 0 0 30px rgba(251, 146, 60, 0.6);
+    }
+}
+
 .btn-subscribe {
     background: transparent;
     color: rgb(10, 37, 3);
@@ -131,6 +147,22 @@
     font-weight: 600;
     font-size: 12px;
     border: 1px solid rgb(0, 128, 96);
+}
+
+.btn-subscribe {
+    animation: glow 2s ease-in-out infinite;
+}
+
+@keyframes glow {
+
+    0%,
+    100% {
+        box-shadow: 0 0 5px rgba(251, 146, 60, 0.5);
+    }
+
+    50% {
+        box-shadow: 0 0 20px rgba(251, 146, 60, 0.8), 0 0 30px rgba(251, 146, 60, 0.6);
+    }
 }
 
 .btn-spotify img,

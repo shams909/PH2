@@ -301,7 +301,7 @@
     }
 
     .hero-title {
-        margin-top: -370px;
+        margin-top: 20px;
         font-size: 20px;
     }
 
@@ -310,7 +310,7 @@
     }
 
     .hero-content {
-        top: 65%;
+        top: 23%;
         width: 90%;
     }
 

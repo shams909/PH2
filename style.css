@@ -301,17 +301,26 @@
     }
 
     .hero-title {
-        margin-top: 20px;
         font-size: 20px;
+
     }
 
     .hero-description {
         font-size: 10px;
+        justify-content: center;
+        text-align: center;
     }
 
     .hero-content {
-        top: 23%;
-        width: 90%;
+        position: relative;
+        top: auto;
+        left: auto;
+        transform: none;
+        width: 95%;
+        margin-top: -50px;
+        margin-left: auto;
+        padding: 0 20px;
+        justify-content: center;
     }
 
     .btn-spotify,

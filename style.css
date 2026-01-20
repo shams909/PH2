@@ -353,4 +353,24 @@
         font-size: 25px;
         margin-left: auto;
     }
+
+    /* Footer*/
+    footer h1 {
+        font-size: 24px !important;
+        margin-top: -80px !important;
+    }
+
+    footer p {
+        font-size: 10px !important;
+        margin-top: 10px !important;
+    }
+
+    .footer-content {
+        margin-bottom: -250px !important;
+    }
+
+    footer {
+        padding-bottom: 0 !important;
+        margin-bottom: 0 !important;
+    }
 }
